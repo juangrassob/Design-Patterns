@@ -47,7 +47,7 @@ const roundPeg10 = new RoundPeg(10);
 const roundPeg20 = new RoundPeg(20);
 
 console.log(
-  `The roundPeg10 ${roundHole.fits(roundPeg10) ? '' : 'not '}fit the hole`
+  `The roundPeg10 ${roundHole.fits(roundPeg10) ? '' : 'not'}fit the hole`
 );
 console.log(
   `The roundPeg20 ${roundHole.fits(roundPeg20) ? '' : 'not '}fit the hole`
