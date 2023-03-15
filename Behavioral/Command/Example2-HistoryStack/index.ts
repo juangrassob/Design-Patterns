@@ -68,7 +68,7 @@ class SetValue extends Command<number> {
     return this.value;
   }
 
-  public undo(state: number): number {
+  public undo(_state: number): number {
     return this._originalValue;
   }
 }
