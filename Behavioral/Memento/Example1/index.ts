@@ -74,8 +74,6 @@ class CareTaker {
     if (memento) {
       this.originator.restore(memento);
     }
-
-    return;
   }
 
   public showHistory(): void {
